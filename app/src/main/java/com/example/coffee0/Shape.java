@@ -3,6 +3,7 @@ package com.example.coffee0;
 public abstract class Shape {
     private int x;
     private int y;
+    protected String color = "blue";
 
     public int getX() {
         return x;
